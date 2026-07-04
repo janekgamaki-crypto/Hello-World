@@ -1,0 +1,10 @@
+# Create a DataFrame using a dictionary
+
+import pandas as pd
+
+students = pd.DataFrame({
+    "Name": ["Thabo", "Lerato"],
+    "Marks": [85, 78]
+})
+
+print(students)
