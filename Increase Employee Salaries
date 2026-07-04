@@ -1,0 +1,9 @@
+# Increase all employee salaries by a fixed amount
+
+import numpy as np
+
+salaries = np.array([15000, 18000, 21000])
+
+updated_salaries = salaries + 2000
+
+print(updated_salaries)
