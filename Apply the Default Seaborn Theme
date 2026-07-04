@@ -1,0 +1,5 @@
+# Apply Seaborn's default visual theme
+
+import seaborn as sns
+
+sns.set_theme()
