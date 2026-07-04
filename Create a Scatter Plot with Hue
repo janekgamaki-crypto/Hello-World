@@ -1,0 +1,18 @@
+# Compare annual income and car price by gender
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+car_data = pd.read_csv("car_data.csv")
+
+sns.scatterplot(
+    x="Annual Income",
+    y="Price ($)",
+    hue="Gender",
+    data=car_data
+)
+
+plt.title("Annual Income vs Car Price by Gender")
+
+plt.show()
