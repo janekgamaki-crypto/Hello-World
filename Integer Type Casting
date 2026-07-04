@@ -1,0 +1,5 @@
+# Convert a string to an integer
+
+number = int("10")
+print(number)
+print(type(number))
