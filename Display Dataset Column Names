@@ -1,0 +1,7 @@
+# Display all column names in the dataset
+
+import pandas as pd
+
+car_data = pd.read_csv("car_data.csv")
+
+print(car_data.columns)
