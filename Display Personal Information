@@ -1,0 +1,7 @@
+# Accept and display a user's personal information
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+city = input("Enter your city: ")
+
+print(f"{name}, who is {age} years old, lives in {city}.")
