@@ -1,0 +1,5 @@
+# Demonstrate how Python lists behave when multiplied
+
+marks = [50, 60, 70]
+
+print(marks * 2)
