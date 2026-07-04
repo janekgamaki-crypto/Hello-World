@@ -1,0 +1,6 @@
+# String variable
+
+language = "Python"
+
+print(language)
+print(type(language))
