@@ -1,0 +1,11 @@
+# Complete solution to the NumPy mini challenge
+
+import numpy as np
+
+marks = np.array([55, 72, 88, 91, 64, 77])
+
+print(f"Mean: {np.mean(marks)}")
+print(f"Median: {np.median(marks)}")
+print(f"Marks After Adding Bonus: {marks + 5}")
+print(f"First Three Marks: {marks[:3]}")
+print(f"Marks Doubled: {marks * 2}")
