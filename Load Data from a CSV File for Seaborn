@@ -1,0 +1,7 @@
+# Load a dataset into a Pandas DataFrame
+
+import pandas as pd
+
+car_data = pd.read_csv("car_data.csv")
+
+print(car_data.head())
