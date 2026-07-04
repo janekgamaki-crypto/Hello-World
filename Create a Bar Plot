@@ -1,0 +1,18 @@
+# Compare the average car price for each company
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+car_data = pd.read_csv("car_data.csv")
+
+sns.barplot(
+    x="Company",
+    y="Price ($)",
+    data=car_data
+)
+
+plt.title("Average Car Price by Company")
+plt.xticks(rotation=45)
+
+plt.show()
