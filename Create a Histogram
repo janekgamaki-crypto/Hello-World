@@ -1,0 +1,15 @@
+# Display the distribution of car prices
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+car_data = pd.read_csv("car_data.csv")
+
+sns.histplot(car_data["Price ($)"])
+
+plt.title("Distribution of Car Prices")
+plt.xlabel("Price ($)")
+plt.ylabel("Frequency")
+
+plt.show()
