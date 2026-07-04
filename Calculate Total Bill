@@ -1,0 +1,8 @@
+# Calculate the total bill based on quantity purchased
+
+quantity = int(input("Enter the quantity: "))
+price = 600
+
+total_bill = quantity * price
+
+print(f"Total Bill: {total_bill}")
